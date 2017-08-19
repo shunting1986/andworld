@@ -3,7 +3,10 @@
   package="com.andworld.explorer">
 
   <application>
+    <!-- 
     <activity android:name=".MainActivity"
+    -->
+    <activity android:name=".PicBrowseActivity"
       android:label="AndworldExplorer"
       android:theme="@style/AppTheme">
       <intent-filter>
@@ -12,4 +15,6 @@
       </intent-filter>
     </activity>
   </application>
+
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 </manifest>

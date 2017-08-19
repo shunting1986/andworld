@@ -1,5 +1,6 @@
 .*.swp
-.recycle
+tags
+NOTE
 
 # project assets
 andworld.iml
