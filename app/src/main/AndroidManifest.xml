@@ -3,10 +3,9 @@
   package="com.andworld.explorer">
 
   <application>
-    <!-- 
-    <activity android:name=".MainActivity"
-    -->
-    <activity android:name=".PicBrowseActivity"
+    <activity android:name=".MainActivity"/>
+    <activity android:name=".PicBrowseActivity"/>
+    <activity android:name=".ActListActivity"
       android:label="AndworldExplorer"
       android:theme="@style/AppTheme">
       <intent-filter>
