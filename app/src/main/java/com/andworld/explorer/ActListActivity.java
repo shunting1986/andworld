@@ -22,6 +22,7 @@ public class ActListActivity extends Activity {
     final Class[] clsList = {
       MainActivity.class, // first sample
       PicBrowseActivity.class,
+      AudioRecordPlayActivity.class,
     };
     ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, clsList);
     lv.setAdapter(adapter);

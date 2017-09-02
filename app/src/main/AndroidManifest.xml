@@ -5,6 +5,7 @@
   <application>
     <activity android:name=".MainActivity"/>
     <activity android:name=".PicBrowseActivity"/>
+    <activity android:name=".AudioRecordPlayActivity"/>
     <activity android:name=".ActListActivity"
       android:label="AndworldExplorer"
       android:theme="@style/AppTheme">
@@ -16,4 +17,5 @@
   </application>
 
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 </manifest>
